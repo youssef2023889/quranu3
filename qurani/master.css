@@ -1,0 +1,294 @@
+/* start body  */
+body{
+    /* font-family: 'Roboto', sans-serif;  */
+    /* font-family: 'Cairo Play', cursive; */
+    /* font-family: 'Cairo', sans-serif; */
+    direction: rtl;
+}
+/* End body  */
+/* selection  */
+::selection{
+    background-color: #22253F;
+}
+/* selection  */
+/* scroll bar  */
+::-webkit-scrollbar{
+    width: 4px;
+}
+::-webkit-scrollbar-track{
+    background-color: #f6f6f6f6;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #22253F;
+
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+/* scroll bar  */
+/* start header  */
+.header {
+    position: sticky;
+    top: 0;
+}
+.header nav img{
+    width: 50px;
+    padding: 8px;
+    float: left;
+}
+.header nav  h2{
+    color: aliceblue;
+    float: left;
+    padding: 0px 0px 0px 10px;
+    font-size: 23px;
+}
+.header .head-for-navbar{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+.header .head-for-navbar h1{
+    float: right;
+}
+.header .head-for-navbar img{
+    width: 90px;
+    float: left;
+}
+.header nav{
+    font-family: 'Cairo Play', cursive;
+    background-color: #040825e1;
+    width: 100%;
+    height: 65px;
+}
+.header i{
+    color: white;
+    font-size: 35px;
+    float: right;
+    padding: 15px;
+    padding-right: 25px;
+}
+.header #check{
+    display: none;
+}
+.header .checkbtn{
+    display: block;
+}  
+.header ul{
+    padding: 0px;
+    position:absolute;
+    width: 350px;
+    overflow: scroll;
+    height: 100vh;
+    background-color:white ;
+    /*ulbackgroundcolor*/
+    top: 49px;
+    right: -180%;
+    text-align:right;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    box-shadow: 0 10px 10px -3px rgb(0 0 0), 0 4px 14px 13px rgb(0 0 0 / 20%);
+}
+
+.header nav ul li{
+display: block;
+margin: 20px 0px;
+line-height: 30px;
+padding-right: 20px;
+}
+.header nav ul li a{
+font-size: 18px;
+font-weight: 700;
+text-decoration: none;
+color: black;
+}
+.header nav ul li a.active,a:hover{
+background-color: none;
+color: black;
+}
+.header #check:checked ~ ul{
+right: 0;
+}
+/* End header  */
+/* start title  */
+.title{
+    width: 100%;
+    height: 250px;
+    font-family: 'Cairo Play', cursive; 
+    background-image: url(./assets/header-background-used.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+}
+.title p{
+    color: #56C0D0;
+    text-align: center;
+}
+.title-2 h1{
+    text-align: center;
+}
+.title-2 img{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+.title-2 p{
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    font-size: 110%;
+    font-weight: 500;
+}
+ /* start The Quran menu  */
+.quran{
+    font-family: 'Cairo Play', cursive;
+    padding-right: 10%;
+    padding-left: 10%;
+} 
+.quran a{
+    min-width: 10em;
+    border-radius: 0.475rem;
+    border: solid 1px #dee2e6;
+    color: #030726;
+    display: block;
+    font-weight: 800;
+    padding: 0.9rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.quran a:hover{
+    border:2px solid #e03c2f;
+    color: #e03c2f;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+/* start download  */
+.down-load{
+   width: 100%;
+   height: 24vh;
+}
+.seaction{
+    text-align: center;
+    /* overflow: hidden; */
+    width: auto;
+    height: 145px;
+    border: 3px solid #e03c2f;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+.down-load .seaction i{
+    font-size: 53px;
+    padding: 15px;
+    text-align: center;
+    color: #e03c2f;
+}
+.down-load .seaction a p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+     font-family: 'Cairo Play', cursive;
+
+}
+/* end download  */
+/* start end seaction  */
+.end-seaction {
+    font-family: 'Cairo Play', cursive;
+    height: 200px; 
+    background-color: #030726;
+    color: white;
+    padding: 35px 30px ;
+    display: inline-flex;
+}
+.end-seaction .content-1 ul{
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+    padding: 0px 0px 0px 40px;
+    width: 130px;
+}
+.end-seaction .content-1 ul li a{
+    text-decoration: none;
+    color: #ccc;
+
+}
+.end-seaction .content-2 ul{
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+    padding: 0px 5px 0px 40px;
+    width: 130px;
+}
+.end-seaction .content-2 ul li a{
+    text-decoration: none;
+    color: #ccc;
+}
+.end-seaction .content-3 ul{
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+    padding: 0px 0px 0px 40px;
+    width: 130px;
+}
+.end-seaction .content-3 ul li a{
+    text-decoration: none;
+    color: #ccc;
+
+}
+.end-seaction .content-4 p{
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+/* end end seaction  */
+/* start icon  */
+.icon-1 .container{
+    background-color: #030726;
+}
+.container{
+    text-align: center;
+}
+.icon-1 i{
+    text-align: center;
+    color: white;
+    font-size: 34px;
+    padding: 10px;
+    /* -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px; */
+}
+/* icon hover  */
+.icon-1 i:hover{
+    margin-bottom: 100px;
+    border-color: white;
+    color: #e03c2f;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.comment-form{
+    text-align: center;
+    padding: 10px;
+    background-color: #eee;
+    font-family: 'Cairo Play', cursive;
+    color: black;
+
+}
